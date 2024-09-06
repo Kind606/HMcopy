@@ -32,6 +32,26 @@ nav ul li a, .container a {
     color: black;
     transition: 250ms;
 }
+.btn, .btn-outline-success {
+    border-color: #E60000;
+    color: #E60000;
+    background-color: white;
+}
+.btn:hover, .btn-outline-success:hover {
+    background-color: #E60000;
+    border-color: #E60000;
+}
+.dropdown-toggle {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px;
+}
+.dropdown-toggle:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
 nav ul li a:hover, .container a:hover, .offer-img a:hover {
     text-decoration: underline;
     text-decoration-color: black;
@@ -45,15 +65,20 @@ nav ul li a:hover, .container a:hover, .offer-img a:hover {
     font-size: 12px;
 }
 .third-nav span {
-    color: red;
+    color: #E60000;
 }
 .main-links {
     position: absolute;
+    margin-left: 45px;
 }
 .search {
     margin-left: auto;
     border: none;
     margin-right: 20px;
+}
+.main-main {
+    position: absolute;
+    margin-right: 350px;
 }
 main {
     display: flex;
@@ -61,7 +86,7 @@ main {
 }
 .side-menu {
     flex-direction: column;
-    width: 20%;
+    width: 15%;
 }
 .container {
     margin: 20px;
@@ -81,7 +106,7 @@ section {
     width: 80%;
     height: auto;
 }
-.hero-text h2 {
+.hero-text h1 {
     position: absolute;
     color: white;
     font-weight: 500;
