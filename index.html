@@ -15,7 +15,7 @@
                 <li><a href="#">Hållbarhet</a></li>
                 <li><a href="#">Kundservice</a></li>
                 <li><a href="#">Nyhetsbrev</a></li>
-                <li><a href="#"><i class='bx bx-dots-horizontal-rounded'></i></a></li>
+                <li><a aria-label="mer" href="#"><i class='bx bx-dots-horizontal-rounded'></i></a></li>
             </ul>
             <div class="logo">
                 <img src="HM-removebg-preview.png" alt="" width="100" height="100">
@@ -25,6 +25,20 @@
                 <li><a href="#"><i class='bx bx-heart'></i>Favoriter</a></li>
                 <li><a href="#"><i class='bx bx-shopping-bag'></i>Shopping bag (0)</a></li>
             </ul>
+            <div class="hidden-menu">
+                <a class="btn btn-secondary " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class='bx bx-menu'></i>
+                </a>
+                
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#"><i class='bx bx-leaf'></i>Hållbarhet</a></li>
+                    <li><a class="dropdown-item" href="#"><i class='bx bx-support'></i>Kundservice</a></li>
+                    <li><a class="dropdown-item" href="#"><i class='bx bxs-news'></i>Nyhetsbrev</a></li>
+                    <li><a class="dropdown-item" href="#"><i class='bx bx-user'></i>Logga in</a></li>
+                    <li><a class="dropdown-item" href="#"><i class='bx bx-heart'></i>Favoriter</a></li>
+                    <li><a class="dropdown-item" href="#"><i class='bx bx-shopping-bag'></i>Shopping bag (0)</a></li>
+                </ul>
+            </div>
         </nav>
         <nav class="second-nav">
             <div class="main-main">
@@ -46,6 +60,18 @@
                         <li><a class="dropdown-item" href="#">Något annat</a></li>
                     </ul>
                 </div>
+                <div class="dropdown-2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Klasser
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#"><i class='bx bx-female'></i>Dam</a></li>
+                      <li><a class="dropdown-item" href="#"><i class='bx bx-male' ></i>Herr</a></li>
+                      <li><a class="dropdown-item" href="#"><i class='bx bxs-baby-carriage' ></i>Baby</a></li>
+                      <li><a class="dropdown-item" href="#"><i class='bx bx-child'></i>Barn</a></li>
+                      <li><a class="dropdown-item" href="#"><i class='bx bx-happy-beaming'></i>Beauty</a></li>
+                    </ul>
+                  </div>
             </div>
             <div class="search">
                 <form class="d-flex" role="search">
@@ -61,7 +87,7 @@
     <main>
         <aside class="side-menu">
             <div class="container">
-                <h4>Nyheter</h4>
+                <h2>Nyheter</h2>
                 <a href="#">Se alla</a>
                 <a href="#">Accessoarer</a>
                 <a href="#">Skor</a>
@@ -70,22 +96,22 @@
                 <a href="#">Kläder</a>
             </div>
             <div class="container">
-                <h4>Lookbook</h4>
+                <h2>Lookbook</h2>
                 <a href="#">Casual Looks</a>
                 <a href="#">Smart Looks</a>
                 <a href="#">Street Looks</a>
                 <a href="#">Athleisure Looks</a>
             </div>
             <div class="container">
-                <h4>Deals</h4>
+                <h2>Deals</h2>
                 <a href="#">Member Prices</a>
             </div>
             <div class="container">
-                <h4>Edits</h4>
+                <h2>Edits</h2>
                 <a href="#">Edits</a>
             </div>
             <div class="container">
-                <h4>Kläder</h4>
+                <h2>Kläder</h2>
                 <a href="#">Visa alla</a>
                 <a href="#">Jackor & Rockar</a>
                 <a href="#">Hoodies & Sweatshirts</a>
@@ -97,25 +123,25 @@
             </div>
         </aside>
         <section>
-            <div class="hero-video">
-                <div class="hero-text">
-                    <h1>DENIM LOOKS</h1>
+            <div class="hero-container">
+                    <h1 class="hero-text">DENIM LOOKS</h1>
+                <div class="hero-video">
+                    <video width="1920" height="1080" autoplay loop muted >
+                        <source src="HMvideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
                 </div>
-                <video width="1920" height="1080" autoplay loop muted >
-                    <source src="HMvideo.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
             </div>
             <div class="offers">
                 <div class="offer-img">
                     <img src="HMkläder1.avif" width="100" height="550" alt="">
-                    <a href="#" class="offer-text"><h4>Shorts by move</h4>
+                    <a href="#" class="offer-text"><h2>Shorts by move</h2>
                     <p>Utforska</p>
                     </a>
                 </div>
                 <div class="offer-img">
                     <img src="HMkläder2.avif" width="100" height="550" alt="">
-                    <a href="#" class="offer-text"><h4>Shorts by move</h4>
+                    <a href="#" class="offer-text"><h2>Shorts by move</h2>
                     <p>Utforska</p>
                     </a>
                 </div>
@@ -125,7 +151,7 @@
     <footer>
         <div class="Footer-items">
             <div class="container">
-                <h4>SHOP</h4>
+                <h2>SHOP</h2>
                 <a href="#">Dam</a>
                 <a href="#">Herr</a>
                 <a href="#">Barn</a>
@@ -134,7 +160,7 @@
                 <a href="#">Magazine</a>
             </div>
             <div class="container">
-                <h4>FÖRETAGSINFORMATION</h4>
+                <h2>FÖRETAGSINFORMATION</h2>
                 <a href="#">Karriär på H&M</a>
                 <a href="#">Om H&M-gruppen</a>
                 <a href="#">Hållbarhet inom H&M-gruppen</a>
@@ -143,7 +169,7 @@
                 <a href="#">Corporate governance</a>
             </div>
             <div class="container">
-                <h4>HJÄLP</h4>
+                <h2>HJÄLP</h2>
                 <a href="#">Kundservice</a>
                 <a href="#">Mitt konto</a>
                 <a href="#">Våra butiker</a>
@@ -155,23 +181,23 @@
                 <a href="#">Cookie Settings</a>
             </div>
             <div class="container footer-text">
-                <h4>GÅ MED NU</h4>
+                <h2>GÅ MED NU</h2>
                 <p>Bli medlem och få 10% rabatt på ett <br> köp + fri leverans till
                 <br>utlämningsställe!</p>
                 <a href="#" class="footer-btn">LÄS MER <i class='bx bx-right-arrow-alt'></i></a>
             </div>
         </div>
         <div class="Socials">
-            <a href="#"><i class='bx bxl-instagram'></i></a>
-            <a href="#"><i class='bx bxl-tiktok' ></i></a>
-            <a href="#"><i class='bx bxl-youtube' ></i></a>
-            <a href="#"><i class='bx bxl-pinterest' ></i></a>
-            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            <a aria-label="instgram" href="#"><i class='bx bxl-instagram'></i></a>
+            <a aria-label="tiktok" href="#"><i class='bx bxl-tiktok' ></i></a>
+            <a aria-label="youtube" href="#"><i class='bx bxl-youtube' ></i></a>
+            <a aria-label="printerst" href="#"><i class='bx bxl-pinterest' ></i></a>
+            <a aria-label="facebook" href="#"><i class='bx bxl-facebook-square'></i></a>
         </div>
         <div class="footer-end">
             <p>Innehållet på denna webbplats är upphovsrättsskyddat och tillhör H & M Hennes & Mauritz AB.</p>
             <img src="HM-removebg-preview.png" alt="" width="60" height="60" class="footer-logo">
-            <h4>Sverige | kr.</h4>
+            <h2>Sverige | kr.</h2>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
