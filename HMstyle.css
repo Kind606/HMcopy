@@ -25,14 +25,18 @@ nav {
     margin-top: 40px;
     margin-right: 120px;
 }
+
 .menu-third {
     position: relative;
 }
+
 .third-m {
     position: absolute;
     right: 300px;
 }
-.dropdown-menu, .p-4 {
+
+.dropdown-menu,
+.p-4 {
     width: 400px;
 }
 
@@ -56,17 +60,43 @@ nav ul li a,
     transition: 250ms;
 }
 
-.btn,
-.btn-outline-success {
+.login-a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: white;
+    color: #E60000;
     border-color: #E60000;
     color: #E60000;
+}
+
+.btn-5 {
+    border-color: black;
+    border-style: none;
+    border-radius: 0;
+    border-bottom-style: solid;
+    color: black;
     background-color: white;
+}
+.me-2 {
+    margin-right: 0rem !important;
+}
+.form-control {
+    border-radius: 0;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: black;
 }
 
 .btn:hover,
 .btn-outline-success:hover {
     background-color: #E60000;
     border-color: #E60000;
+    color: white;
+
 }
 
 .dropdown-toggle {
@@ -84,7 +114,8 @@ nav ul li a,
 
 nav ul li a:hover,
 .container a:hover,
-.offer-img a:hover {
+.offer-img a:hover,
+.login-a:hover {
     text-decoration: underline;
     text-decoration-color: black;
 }
@@ -98,14 +129,14 @@ nav ul li a:hover,
 }
 
 .btn-outline-success {
-    --bs-btn-color: #E60000;
+    --bs-btn-color: black;
     --bs-btn-border-color: #E60000;
-    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-color: black;
     --bs-btn-hover-bg: #E60000;
     --bs-btn-hover-border-color: #E60000;
     --bs-btn-focus-shadow-rgb: 168, 17, 36;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #E60000;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: white;
     --bs-btn-active-border-color: #E60000;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #E60000;
@@ -115,20 +146,19 @@ nav ul li a:hover,
 }
 
 .btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #E60000;
-    --bs-btn-border-color: #E60000;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #E60000;
-    --bs-btn-hover-border-color: #E60000;
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #E60000;
-    --bs-btn-active-border-color: #E60000;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #E60000;
-    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: white;
+    --bs-btn-hover-bg: red;
+    --bs-btn-hover-color: white;
+    --bs-btn-focus-shadow-rgb: 168, 17, 36;
+}
+
+.btn-secondary {
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: white;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-color: black;
+    --bs-btn-focus-shadow-rgb: 168, 17, 36;
 }
 
 .third-nav {
