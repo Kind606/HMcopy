@@ -44,6 +44,10 @@ nav {
     display: none
 }
 
+.bx-dots-horizontal-rounded {
+    font-size: 28px;
+}
+
 .logo {
     margin-top: 40px;
     margin-right: 120px
