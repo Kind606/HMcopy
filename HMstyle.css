@@ -169,6 +169,7 @@ nav ul li a:hover {
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #E60000;
     --bs-gradient: none
+    --bs-btn-focus-box-shadow: white;
 }
 
 .btn-primary {
