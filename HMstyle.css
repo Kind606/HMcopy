@@ -1,131 +1,160 @@
+.btn,
+.btn-5 {
+    background-color: #fff
+}
+
+.btn-outline-success,
+.btn-primary,
+.btn-secondary {
+    --bs-btn-active-color: black;
+    --bs-btn-active-bg: white;
+    --bs-btn-focus-shadow-rgb: 168, 17, 36
+}
+
+main,
+nav,
+nav ul {
+    display: flex
+}
+
+.offer-img img,
+footer,
+nav {
+    width: 100%
+}
+
 * {
     padding: 0;
     margin: 0;
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri, 'Trebuchet MS', sans-serif
 }
 
-/* Här börjar nav style */
 nav {
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    width: 100%;
+    height: 80px
 }
 
 .first-nav ul {
-    margin-right: 20px;
+    margin-right: 20px
 }
 
+.dropdown-2,
 .hidden-menu {
-    display: none;
+    display: none
 }
 
 .logo {
     margin-top: 40px;
-    margin-right: 120px;
+    margin-right: 120px
 }
 
+.hero-container,
 .menu-third {
-    position: relative;
+    position: relative
+}
+
+.hero-text,
+.hero-volume,
+.main-links,
+.main-main,
+.third-m {
+    position: absolute
 }
 
 .third-m {
-    position: absolute;
-    right: 300px;
+    right: 300px
 }
 
 .dropdown-menu,
 .p-4 {
-    width: 400px;
+    width: 400px
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
+    list-style: none
 }
 
 nav ul li {
-    margin: 15px;
+    margin: 15px
 }
 
 nav ul li i {
-    margin-right: 10px;
+    margin-right: 10px
 }
 
-nav ul li a,
-.container a {
+.container a,
+nav ul li a {
     text-decoration: none;
-    color: black;
-    transition: 250ms;
+    color: #000;
+    transition: 250ms
 }
 
 .login-a {
     text-decoration: none;
-    color: black;
-    font-weight: 600;
+    color: #000;
+    font-weight: 600
+}
+
+.btn,
+.third-nav span {
+    color: #e60000
 }
 
 .btn {
-    background-color: white;
-    color: #E60000;
-    border-color: #E60000;
-    color: #E60000;
+    border-color: #e60000
+}
+
+.btn-5,
+.form-control {
+    border-radius: 0;
+    border-style: none none solid;
+    border-color: #000
 }
 
 .btn-5 {
-    border-color: black;
-    border-style: none;
-    border-radius: 0;
-    border-bottom-style: solid;
-    color: black;
-    background-color: white;
+    color: #000
 }
+
 .me-2 {
-    margin-right: 0rem !important;
-}
-.form-control {
-    border-radius: 0;
-    border-style: none;
-    border-bottom-style: solid;
-    border-color: black;
+    margin-right: 0 !important
 }
 
-.btn:hover,
-.btn-outline-success:hover {
-    background-color: #E60000;
-    border-color: #E60000;
-    color: white;
+.search-barra:active {
+    text-decoration: none;
+    outline-style: none
+}
 
+.btn-outline-success:hover,
+.btn:hover {
+    background-color: #e60000;
+    border-color: #e60000;
+    color: #fff
 }
 
 .dropdown-toggle {
-    background-color: white;
-    color: black;
+    background-color: #fff;
+    color: #000;
     border: none;
-    padding: 15px;
+    padding: 15px
 }
 
 .dropdown-toggle:hover {
-    background-color: white;
-    color: black;
-    text-decoration: underline;
+    background-color: #fff;
+    color: #000;
+    text-decoration: underline
 }
 
-nav ul li a:hover,
 .container a:hover,
+.login-a:hover,
 .offer-img a:hover,
-.login-a:hover {
+nav ul li a:hover {
     text-decoration: underline;
-    text-decoration-color: black;
+    text-decoration-color: black
 }
 
 .second-nav {
-    justify-content: center;
-}
-
-.dropdown-2 {
-    display: none;
+    justify-content: center
 }
 
 .btn-outline-success {
@@ -134,341 +163,301 @@ nav ul li a:hover,
     --bs-btn-hover-color: black;
     --bs-btn-hover-bg: #E60000;
     --bs-btn-hover-border-color: #E60000;
-    --bs-btn-focus-shadow-rgb: 168, 17, 36;
-    --bs-btn-active-color: black;
-    --bs-btn-active-bg: white;
     --bs-btn-active-border-color: #E60000;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #E60000;
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #E60000;
-    --bs-gradient: none;
+    --bs-gradient: none
 }
 
 .btn-primary {
-    --bs-btn-active-color: black;
-    --bs-btn-active-bg: white;
     --bs-btn-hover-bg: red;
-    --bs-btn-hover-color: white;
-    --bs-btn-focus-shadow-rgb: 168, 17, 36;
+    --bs-btn-hover-color: white
 }
 
 .btn-secondary {
-    --bs-btn-active-color: black;
-    --bs-btn-active-bg: white;
     --bs-btn-hover-bg: white;
-    --bs-btn-hover-color: black;
-    --bs-btn-focus-shadow-rgb: 168, 17, 36;
+    --bs-btn-hover-color: black
 }
 
 .third-nav {
     justify-content: center;
     height: 30px;
-    font-size: 12px;
-}
-
-.third-nav span {
-    color: #E60000;
+    font-size: 12px
 }
 
 .main-links {
-    position: absolute;
-    margin-left: 45px;
+    margin-left: 45px
 }
 
 .search {
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: 20px
 }
 
-/* Här slutar nav style */
-/* Här börjar main style */
 .main-main {
-    position: absolute;
-    margin-right: 350px;
+    margin-right: 350px
 }
 
 main {
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
-/* Här börjar sidemenu style */
 .side-menu {
     flex-direction: column;
-    width: 15%;
+    width: 15%
+}
+
+.container,
+section {
+    flex-direction: column;
+    display: flex
 }
 
 .container {
     margin: 20px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+    padding: 10px
 }
 
 .container h2 {
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
-/* Här slutar sidemenu style */
-/* Här börjar section style */
 section {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
+    width: 80%
 }
 
 .hero-volume {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 700px;
+    margin-left: 700px
 }
 
 .hero-volume i {
-    color: white;
+    color: #fff;
     font-size: 35px;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .bx-volume {
-    margin: 5px;
-}
-
-.hero-container {
-    position: relative;
+    margin: 5px
 }
 
 .hero-video {
     width: 770px;
-    height: auto;
+    height: auto
 }
 
 .hero-text {
-    position: absolute;
-    color: white;
+    color: #fff;
     font-weight: 500;
     margin-left: 30px;
-    bottom: 0;
+    bottom: 0
+}
+
+.Socials a,
+.offer-text {
+    text-decoration: none;
+    color: #000
 }
 
 .hero-video video {
     max-width: 100%;
-    height: auto;
+    height: auto
 }
 
 .offers {
-    display: flex;
-}
-
-.offer-img img {
-    width: 100%;
+    display: flex
 }
 
 .offer-text {
-    margin: 20px;
-    text-decoration: none;
-    color: black;
+    margin: 20px
 }
 
-/* Här slutar section och main style */
-/* Här börjar footer style */
 footer {
-    background-color: #E4E4E4;
-    padding: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-    width: 100%;
+    background-color: #e4e4e4;
+    padding: 50px 150px
 }
 
 .Footer-items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .Socials {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .Socials a {
-    margin: 12px;
-    text-decoration: none;
-    color: black;
+    margin: 12px
 }
 
 .Socials i:hover {
-    color: grey;
+    color: grey
 }
 
 .Socials i {
     font-size: 25px;
-    transition: 250ms;
+    transition: 250ms
 }
 
 .footer-end {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .footer-logo {
-    cursor: pointer;
+    cursor: pointer
 }
 
-/* Här slutar footer style */
-@media screen and (max-width: 970px) {
-    .hidden-menu {
-        display: block;
-        text-decoration: none;
-        margin-right: 30px;
-        margin-top: 10px;
-    }
+@media screen and (max-width:970px) {
 
-    .first-nav ul {
-        display: none;
-    }
-
-    .Footer-items {
-        flex-direction: column;
-    }
-
-    .hero-video {
-        width: 400px;
-        height: auto;
-        margin-left: 150px;
-    }
-
-    .hero-text {
-        margin-left: 170px;
-    }
-
+    .hero-video,
     .offers {
-        flex-direction: column;
-        margin-left: 150px;
-        height: auto;
         width: 400px;
+        height: auto
     }
 
+    .hero-video,
+    .offers,
     .offers img {
-        height: auto;
-    }
-
-    .side-menu {
-        display: none;
-    }
-
-    section {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .main-main {
-        left: 0%;
-    }
-
-    .dropdown,
-    .main-links {
-        display: none;
-    }
-
-    .dropdown-2 {
-        display: block;
-        margin-left: 30px;
-    }
-
-    .hidden-menu i {
-        text-decoration: none;
+        height: auto
     }
 
     .btn,
     .btn-secondary,
-    .dropdown-toggle {
-        text-decoration: none;
+    .dropdown-toggle,
+    .hidden-menu,
+    .hidden-menu i {
+        text-decoration: none
+    }
+
+    .hidden-menu {
+        display: block;
+        margin-right: 30px;
+        margin-top: 10px
+    }
+
+    .dropdown,
+    .first-nav ul,
+    .main-links,
+    .side-menu,
+    .third-m {
+        display: none
+    }
+
+    .Footer-items {
+        flex-direction: column
+    }
+
+    .hero-video {
+        margin-left: 150px
+    }
+
+    .hero-text {
+        margin-left: 170px
+    }
+
+    .offers {
+        flex-direction: column;
+        margin-left: 150px
+    }
+
+    section {
+        align-items: center;
+        justify-content: center
+    }
+
+    .main-main {
+        left: 0
+    }
+
+    .dropdown-2 {
+        display: block;
+        margin-left: 30px
     }
 
     .hero-container {
         margin-bottom: 50px;
-        margin-top: 50px;
+        margin-top: 50px
     }
 
     .btn,
     .btn-outline-success {
-        font-size: 24px;
+        font-size: 24px
     }
 
-    .hidden-menu i,
+    .dropdown-menu a,
     .dropdown-menu i,
-    .dropdown-menu a {
-        font-size: 30px;
+    .hidden-menu i {
+        font-size: 30px
     }
 
     .hero-volume {
-        margin-left: 150px;
-    }
-
-    .third-m {
-        display: none;
+        margin-left: 150px
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
+
+    .offers,
+    .offers img {
+        height: auto
+    }
+
     .dropdown-2 {
         display: block;
-        margin-left: 10px;
+        margin-left: 10px
     }
 
     .btn,
     .btn-outline-success {
-        font-size: 18px;
+        font-size: 18px
     }
 
     footer {
-        padding: 0;
+        padding: 0
     }
 
     .hero-video {
         margin-left: 40px;
-        width: 100%;
+        width: 100%
     }
 
     .hero-text {
-        margin-left: 45px;
+        margin-left: 45px
     }
 
     .hero-volume {
-        margin-left: 40px;
+        margin-left: 40px
     }
 
     .offers {
         margin-left: 70px;
-        width: 100%;
-        height: auto;
-    }
-
-    .offers img {
-        height: auto;
+        width: 100%
     }
 
     .container {
-        margin: 0;
+        margin: 0
     }
 
     .form-control,
     .me-2 {
-        width: 140px;
+        width: 140px
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width:350px) {
 
     .btn,
     .btn-outline-success {
         font-size: 20px;
-        padding: 0;
-
+        padding: 0
     }
 }
